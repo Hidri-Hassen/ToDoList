@@ -1,0 +1,81 @@
+body{
+    background-color: rgba(235,233,249,1);
+}
+
+li{display: flex;
+
+}
+p{
+    font-size: 1.5em ;
+    font-family: cursive;
+    font-weight: 900;
+}
+#background{
+    position: relative;
+    padding: 50px 540px;
+   
+    
+}
+
+.container{
+    position: absolute;
+    margin: -321px 0px 0px 760px;
+}
+.list{
+    position: absolute;
+    margin:  65px 0 0 -940px;
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    border-style: unset; 
+}
+.add{
+    margin-left: -630px;
+    position: absolute;
+    margin-top: 65px;
+    width: 80px;
+    height: 45px;
+    border-radius: 10px;
+    border-style: unset;
+    
+} 
+
+.complete{
+    margin: 5px 5px;
+   
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+.undo{
+    margin: 5px 5px;
+    
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    display: none;
+}
+.delete{
+    margin: 5px 5px;
+   
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+.toDoList{
+    margin: 5px 5px;
+    padding: 5px 5px 5px 10px;
+    
+    width: 211px;
+    
+    
+
+}
+.line-through{
+    text-decoration: line-through solid black ;
+    
+} 
+.not-line-through{
+    text-decoration: none;
+}
